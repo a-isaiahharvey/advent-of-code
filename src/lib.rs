@@ -1,4 +1,4 @@
-#![feature(trait_alias)]
+#![feature(trait_alias, iter_array_chunks)]
 #![warn(
     clippy::all,
     clippy::pedantic,
@@ -7,5 +7,6 @@
 )]
 #![allow(unused)]
 pub mod year_2015;
+pub mod year_2016;
 
 mod shared;
